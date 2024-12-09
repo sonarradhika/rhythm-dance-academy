@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Rhythm Dance Acadamy</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Limelight&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/rdalogo.png" alt="Rhythm Dance Acadamy" class="logo">
+        <h1>Rhythm Dance Acadamy</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="timetable.html">Timetable</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- register.html -->
+    <main>
+        <form action="#" method="post" id="theForm">
+            <div class="form-container">
+                <fieldset>
+                    <legend>Contact Us</legend>
+
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="firstName" required>
+
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName" required>
+
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" id="email" required>
+
+                    <label for="phone">Phone Number
+                        <span class="tooltip"></span>
+                    </label>
+                    <input type="text" name="phone" id="phone" required>
+
+                    <label for="interest">Interest</label>
+                    <select name="interest" id="interest">
+                        <option value="">Select Interest</option>
+                        <option value="CD">Classical Dance</option>
+                        <option value="SC">Semi Classical Dance</option>
+                        <option value="BD">Bollywood Dance</option>
+                        <option value="CT">Contemporary Dance</option>
+                        <option value="FD">Folk Dance</option>
+                    </select>
+
+                    <label for="message">Message <br> (Max 20 words)</label>
+                    <textarea name="message" id="message" rows="4" cols="50"
+                        placeholder="Enter your message (Max 20 words)"></textarea>
+
+                    <input type="checkbox" name="terms" id="terms" required> I agree to the terms.
+
+                    <input type="submit" value="Register" id="submit">
+                </fieldset>
+            </div>
+        </form>
+    </main>
+
+    <footer class="footer-content">
+       
+            <section class="sitemap">
+                <h2>Site Map</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="classes.html">Classes</a></li>
+                    <li><a href="timetable.html">Timetable</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </section>
+
+            <section class="social-wrapper">
+                <h2>Follow Us</h2>
+                <ul class="social-media">
+                    <li><a href="#"><img src="images/instagram.png" alt="Instagram"></a></li><!--https://unsplash.com/photos/blue-and-red-square-logo-71Qk8ODIBko-->
+                    <li><a href="#"><img src="images/facebook.png" alt="Facebook"></a></li><!--https://unsplash.com/photos/blue-and-white-star-illustration-CTZhGbSxWLI-->
+                    <li><a href="#"><img src="images/youtube.png" alt="YouTube"></a></li><!--https://unsplash.com/photos/red-and-white-square-illustration-niUkImZcSP8-->
+                </ul>
+                <p>&copy; 2024 Rhythm Dance Acadamy. All rights reserved.</p>
+            </section>
+       
+    </footer>
+</body>
+
+</html>
